@@ -1,0 +1,11 @@
+path {
+  stroke: #000;
+  stroke-linecap: round;
+  /*animation: dash 5s linear;*/
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: -1000;
+  }
+}
